@@ -9,7 +9,7 @@ int main(){
     printf("%d",v); 
 
     // char dt = '21'; --> char only stores single charater value
-    char dt = '3';
+    char dt = '3';  //This is valid
    
     return 0;
 }
