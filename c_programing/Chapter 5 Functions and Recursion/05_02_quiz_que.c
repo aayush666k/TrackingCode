@@ -12,7 +12,7 @@ int main()
 }
 void Goodmorning()
 {
-    printf("Good Morming Aayush\n");
+    printf("Good Morning Aayush\n");
 }
 void Goodafternoon()
 {

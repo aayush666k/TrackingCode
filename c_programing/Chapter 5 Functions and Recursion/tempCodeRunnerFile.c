@@ -1,2 +1,1 @@
-
-int main()
+    result = a + b;
