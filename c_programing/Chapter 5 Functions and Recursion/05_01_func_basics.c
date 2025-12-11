@@ -4,10 +4,12 @@ int main()
 {
     int a;
     printf("Initializing display function\n");
-    display();
+    display(); // Function call
     printf("Display function finished its work\n");
     return 0;
 }
+
+// function display
 void display()
 {
     printf("This is display\n");

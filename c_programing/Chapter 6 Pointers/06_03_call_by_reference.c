@@ -8,8 +8,8 @@ int main()
     printf("Enter two numbers:\n");
     scanf("%d %d", &x, &y);
     printf("The value of x and y is before swap %d and %d \n", x, y);
-    // wrong_swap(x, y);// will not work due to call by value
-    swap(&x, &y);
+    // wrong_swap(x, y); // will not work due to call by value
+    swap(&x, &y); // will  work due to call by refrence
     printf("The value of x and y is after swap %d and %d \n", x, y);
 
     return 0;
